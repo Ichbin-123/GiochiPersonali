@@ -5,6 +5,7 @@ public class Queens {
         // int[] regine = {0, 4, 7, 5, 2, 6, 1, 3}; // Test della struttura 1 Regina per colonna
         // Quante disposizioni con ripetizione mi attendo? 8^8 = (2^3)^8 = (2)^24 = 16 777 216
         // Quindi un intero è sufficiente
+        // Provare a fare l'analisi con 10 o più regine
         int totaleDisposizioniVerificate = 0; // 16 777 216 << (2)^31 - 1
         int totaleNumeroSoluzioni = 0; // Mi attendo un subset di totaleDisposizioniVerificate
         int[] regine = new int [8]; // Array per le soluzioni
